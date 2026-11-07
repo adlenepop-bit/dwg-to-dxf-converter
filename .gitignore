@@ -1,0 +1,39 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# CAD input / output drawing files (prevent committing large test drawings)
+*.dwg
+*.DWG
+*.dxf
+*.DXF
+
+# Script temporary files
+*.scr
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+test_output*
+
+# Virtual environments & IDEs
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# IMPORTANT: Keep bundled LibreDWG binaries and DLLs tracked
+!bin/
+!bin/**
+!bin/cad/*.exe
+!bin/cad/*.dll
